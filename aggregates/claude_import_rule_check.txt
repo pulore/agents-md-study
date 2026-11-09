@@ -1,0 +1,18 @@
+~/.local/share/claude/versions/2.1.220
+  scanner  same as 2.1.220
+  walker   same as 2.1.220
+  resolver ID(ID,ID.dirname(ID))  (2.1.220: ID(ID,ID.dirname(ID)); later builds import dirname under a short name)
+  filter   same as 2.1.220: !(ID(ID)&&!ID(ID))&&!ID(ID)
+  lexer    CommonMark (gfm off)
+~/Library/Application Support/Claude/claude-code/2.1.309/…/claude
+  scanner  same as 2.1.220
+  walker   same as 2.1.220
+  resolver ID(ID,ID(ID))  (2.1.220: ID(ID,ID.dirname(ID)); later builds import dirname under a short name)
+  filter   changed: !$ID(ID)
+  lexer    CommonMark (gfm off)
+~/Library/Application Support/Claude/claude-code/2.1.317/…/claude
+  scanner  same as 2.1.220
+  walker   same as 2.1.220
+  resolver ID(ID,ID(ID))  (2.1.220: ID(ID,ID.dirname(ID)); later builds import dirname under a short name)
+  filter   changed: !ID(ID)
+  lexer    CommonMark (gfm off)

@@ -1,0 +1,8 @@
+{
+  "name": "agents-md-study-scripts",
+  "private": true,
+  "description": "Pins marked for claude_imports.mjs, which applies Claude Code's @-import rule. Install with: npm ci --ignore-scripts",
+  "dependencies": {
+    "marked": "18.1.1"
+  }
+}

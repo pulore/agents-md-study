@@ -1,0 +1,14 @@
+{
+ "CLAUDE.md": {
+  "top_results": 99,
+  "sized": 99,
+  "median_bytes": 4519,
+  "share_under_100_bytes": 0.03
+ },
+ "AGENTS.md": {
+  "top_results": 100,
+  "sized": 100,
+  "median_bytes": 4018.5,
+  "share_under_100_bytes": 0.02
+ }
+}

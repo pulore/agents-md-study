@@ -1,0 +1,130 @@
+OK   frame repos: labels 19776 | aggregates 19776
+OK   frame root_CLAUDE.md: labels 2223 | aggregates 2223
+OK   frame root_AGENTS.md: labels 3107 | aggregates 3107
+OK   frame has_.claude_dir: labels 1229 | aggregates 1229
+OK   frame has_.agents_dir: labels 702 | aggregates 702
+OK   frame has_.codex_dir: labels 191 | aggregates 191
+OK   frame both_root: labels 1293 | aggregates 1293
+OK   frame both_root 95% interval: labels [5.6, 7.4] | aggregates [5.6, 7.4]
+OK   frame stars 10-49: labels {'repos': 10904, 'claude': 1223, 'agents': 1676, 'both': 695} | aggregates {'repos': 10904, 'claude': 1223, 'agents': 1676, 'both': 695}
+OK   frame stars 50-499: labels {'repos': 6628, 'claude': 718, 'agents': 982, 'both': 410} | aggregates {'repos': 6628, 'claude': 718, 'agents': 982, 'both': 410}
+OK   frame stars 500+: labels {'repos': 2244, 'claude': 282, 'agents': 449, 'both': 188} | aggregates {'repos': 2244, 'claude': 282, 'agents': 449, 'both': 188}
+OK   frame created 2008-2022: labels {'repos': 8064, 'claude': 616, 'agents': 872, 'both': 342} | aggregates {'repos': 8064, 'claude': 616, 'agents': 872, 'both': 342}
+OK   frame created 2023: labels {'repos': 1546, 'claude': 132, 'agents': 183, 'both': 68} | aggregates {'repos': 1546, 'claude': 132, 'agents': 183, 'both': 68}
+OK   frame created 2024: labels {'repos': 1485, 'claude': 160, 'agents': 221, 'both': 97} | aggregates {'repos': 1485, 'claude': 160, 'agents': 221, 'both': 97}
+OK   frame created 2025: labels {'repos': 2054, 'claude': 292, 'agents': 384, 'both': 162} | aggregates {'repos': 2054, 'claude': 292, 'agents': 384, 'both': 162}
+OK   frame created 2026: labels {'repos': 6627, 'claude': 1023, 'agents': 1447, 'both': 624} | aggregates {'repos': 6627, 'claude': 1023, 'agents': 1447, 'both': 624}
+OK   pairs n: labels 1292 | aggregates 1292
+OK   pairs missing text: labels 1 | aggregates 1
+OK   kind import-shim: labels 446 | aggregates 446
+OK   kind import-shim 95% interval: labels [31.1, 38.3] | aggregates [31.1, 38.3]
+OK   kind symlink: labels 299 | aggregates 299
+OK   kind symlink 95% interval: labels [20.8, 25.7] | aggregates [20.8, 25.7]
+OK   kind pointer: labels 277 | aggregates 277
+OK   kind pointer 95% interval: labels [18.8, 23.8] | aggregates [18.8, 23.8]
+OK   kind separate: labels 121 | aggregates 121
+OK   kind separate 95% interval: labels [7.2, 11.8] | aggregates [7.2, 11.8]
+OK   kind near-copy: labels 62 | aggregates 62
+OK   kind near-copy 95% interval: labels [3.5, 6.1] | aggregates [3.5, 6.1]
+OK   kind identical: labels 47 | aggregates 47
+OK   kind identical 95% interval: labels [2.5, 4.9] | aggregates [2.5, 4.9]
+OK   kind import-plus: labels 39 | aggregates 39
+OK   kind import-plus 95% interval: labels [2.1, 3.9] | aggregates [2.1, 3.9]
+OK   kind symlink-other: labels 1 | aggregates 1
+OK   kind symlink-other 95% interval: labels [0.0, 0.3] | aggregates [0.0, 0.3]
+OK   connected: labels 784 | aggregates 784
+OK   not connected: labels 508 | aggregates 508
+OK   not connected 95% interval: labels [35.6, 42.6] | aggregates [35.6, 42.6]
+OK   connected 95% interval: labels [57.4, 64.4] | aggregates [57.4, 64.4]
+OK   copies: labels 109 | aggregates 109
+OK   copies 95% interval: labels [6.8, 10.0] | aggregates [6.8, 10.0]
+OK   symlink directions: labels {'CLAUDE->AGENTS': 233, 'AGENTS->CLAUDE': 59, 'both->third': 7} | aggregates {'CLAUDE->AGENTS': 233, 'AGENTS->CLAUDE': 59, 'both->third': 7}
+OK   pointer directions: labels {'claude_mentions_agents_only': 136, 'agents_mentions_claude_only': 59, 'both_mention': 82, 'short_claude_pointer_le5_lines': 85} | aggregates {'claude_mentions_agents_only': 136, 'agents_mentions_claude_only': 59, 'both_mention': 82, 'short_claude_pointer_le5_lines': 85}
+OK   broken import in code: labels 0 | aggregates 0
+OK   AGENTS.md with @CLAUDE.md: labels 5 | aggregates 5
+OK   symlink checked in as text: labels 6 | aggregates 6
+OK   near-miss imports: labels 6 | aggregates 6
+OK   looser regex says import, parser says no: labels 4 | aggregates 4
+OK   parser says import, looser regex says no: labels 0 | aggregates 0
+OK   one-line import CLAUDE.md: labels 324 | aggregates 324
+OK   one line exactly @AGENTS.md: labels 317 | aggregates 317
+OK   not connected, stars 10-49: labels [279, 695] | aggregates [279, 695]
+OK   not connected, stars 50-499: labels [169, 410] | aggregates [169, 410]
+OK   not connected, stars 500+: labels [60, 187] | aggregates [60, 187]
+OK   not connected, 10-499 stars: labels [448, 1105] | aggregates [448, 1105]
+OK   .claude/CLAUDE.md kinds: labels {'pointer': 11, 'separate': 3, 'import (@AGENTS.md, resolves inside .claude/)': 4, 'import (@../AGENTS.md)': 10, 'identical': 2, 'symlink-other': 3, 'symlink': 4, 'near-copy': 1} | aggregates {'symlink': 4, 'import (@../AGENTS.md)': 10, 'separate': 3, 'pointer': 11, 'import (@AGENTS.md, resolves inside .claude/)': 4, 'identical': 2, 'symlink-other': 3, 'near-copy': 1}
+OK   committed CLAUDE.local.md: labels 1 | aggregates 1
+OK   regular root CLAUDE.md read: labels 1976 | aggregates 1976
+OK   share of those under 100 bytes: labels 0.209 | aggregates 0.209
+OK   small CLAUDE.md that import: labels [413, 367] | aggregates [413, 367]
+OK   separately written median shared lines: labels 0.007 | aggregates 0.007
+OK   identical pairs: labels 47 | aggregates 47
+OK   near-copy pairs: labels 62 | aggregates 62
+OK   last-edit gap near_copy: labels {'n': 62, 'same_day': 37, 'over_30_days': 15, 'median_days': 0.0} | aggregates {'n': 62, 'same_day': 37, 'over_30_days': 15, 'median_days': 0.0}
+OK   last-edit gap identical: labels {'n': 47, 'same_day': 45, 'over_30_days': 1, 'median_days': 0} | aggregates {'n': 47, 'same_day': 45, 'over_30_days': 1, 'median_days': 0}
+OK   last-edit gap separately_written: labels {'n': 499, 'same_day': 150, 'over_30_days': 189, 'median_days': 12} | aggregates {'n': 499, 'same_day': 150, 'over_30_days': 189, 'median_days': 12}
+OK   near-copy manual labels: labels {'cosmetic': 23, 'contradiction': 14, 'content': 25} | aggregates {'content': 25, 'cosmetic': 23, 'contradiction': 14}
+OK   near-copy content: edited on different days: labels [25, 13] | aggregates [25, 13]
+OK   near-copy cosmetic: edited on different days: labels [23, 3] | aggregates [23, 3]
+OK   near-copy contradiction: edited on different days: labels [14, 9] | aggregates [14, 9]
+OK   separately written pairs: labels 600 | aggregates 600
+OK   both files state pm: labels 109 | aggregates 109
+OK   one file states pm: labels 135 | aggregates 135
+OK   both files state pypm: labels 36 | aggregates 36
+OK   one file states pypm: labels 61 | aggregates 61
+OK   both files state test: labels 139 | aggregates 139
+OK   one file states test: labels 210 | aggregates 210
+OK   both files state fmt: labels 29 | aggregates 29
+OK   one file states fmt: labels 75 | aggregates 75
+OK   both files state style: labels 17 | aggregates 17
+OK   one file states style: labels 67 | aggregates 67
+OK   both files state commit: labels 55 | aggregates 55
+OK   one file states commit: labels 184 | aggregates 184
+OK   either file bans a command: labels 94 | aggregates 94
+OK   automatic flags pm: labels 6 | aggregates 6
+OK   manual verdicts pm: labels {'false-positive': 6} | aggregates {'false-positive': 6}
+OK   automatic flags pypm: labels 0 | aggregates 0
+OK   manual verdicts pypm: labels {} | aggregates {}
+OK   automatic flags test: labels 3 | aggregates 3
+OK   manual verdicts test: labels {'false-positive': 3} | aggregates {'false-positive': 3}
+OK   automatic flags fmt: labels 0 | aggregates 0
+OK   manual verdicts fmt: labels {} | aggregates {}
+OK   automatic flags style: labels 0 | aggregates 0
+OK   manual verdicts style: labels {} | aggregates {}
+OK   automatic flags ban: labels 14 | aggregates 14
+OK   manual verdicts ban: labels {'false-positive': 13, 'confirmed': 1} | aggregates {'false-positive': 13, 'confirmed': 1}
+OK   automatic flags commit: labels 3 | aggregates 3
+OK   manual verdicts commit: labels {'false-positive': 2, 'confirmed': 1} | aggregates {'false-positive': 2, 'confirmed': 1}
+OK   two full files: labels 283 | aggregates 283
+OK   two full files, not copies: median shared lines (4 dp): labels 0.01 | aggregates 0.01
+OK   one-sided rules, not_connected_no_pointer: labels {'n': 144, 'test_one': 16, 'test_both': 73, 'pm_one': 18, 'pm_both': 65} | aggregates {'n': 144, 'test_one': 16, 'test_both': 73, 'pm_one': 18, 'pm_both': 65}
+OK   one-sided rules, pointer: labels {'n': 117, 'test_one': 36, 'test_both': 47, 'pm_one': 22, 'pm_both': 50} | aggregates {'n': 117, 'test_one': 36, 'test_both': 47, 'pm_one': 22, 'pm_both': 50}
+OK   one-sided rules, all_unconnected: labels {'n': 261, 'test_one': 52, 'test_both': 120, 'pm_one': 40, 'pm_both': 115} | aggregates {'n': 261, 'test_one': 52, 'test_both': 120, 'pm_one': 40, 'pm_both': 115}
+OK   root AGENTS.md with known size: labels 3084 | aggregates 3084
+OK   over 32 KiB: labels 167 | aggregates 167
+OK   over 32 KiB 95% interval: labels [4.3, 6.5] | aggregates [4.3, 6.5]
+OK   over 16 KiB: labels 491 | aggregates 491
+OK   median root AGENTS.md (KiB, 1 dp, from rounded sizes): labels 5.5 | aggregates 5.5
+OK   size bins: labels {'4-8 KiB': 729, '1-4 KiB': 916, '16-32 KiB': 324, '8-16 KiB': 637, 'up to 1 KiB': 311, '32-64 KiB': 120, 'over 64 KiB': 47} | aggregates {'up to 1 KiB': 311, '1-4 KiB': 916, '4-8 KiB': 729, '8-16 KiB': 637, '16-32 KiB': 324, '32-64 KiB': 120, 'over 64 KiB': 47}
+OK   over 32 KiB, stars 10-49: labels [95, 1666] | aggregates [95, 1666]
+OK   over 32 KiB, stars 50-499: labels [59, 977] | aggregates [59, 977]
+OK   over 32 KiB, stars 500+: labels [13, 441] | aggregates [13, 441]
+OK   trees listed in full: labels 3092 | aggregates 3092
+OK   tree issues: labels {'tree_truncated': 15} | aggregates {'tree_truncated': 15}
+OK   repos with nested AGENTS.md: labels 415 | aggregates 415
+OK   over 32 KiB root or combined: labels 224 | aggregates 224
+OK   over 32 KiB only when combined: labels 59 | aggregates 59
+OK   root AGENTS.override.md: labels 0 | aggregates 0
+OK   AGENTS.override.md anywhere in listed trees: labels 0 | aggregates 0
+OK   oversize repos checked for .codex/config.toml: labels 167 | aggregates 167
+OK   with a committed .codex/config.toml: labels 4 | aggregates 4
+OK   raising project_doc_max_bytes: labels 0 | aggregates 0
+OK   repos with a skills folder: labels 1082 | aggregates 1082
+OK   skills breakdown: labels {'both: two real directories': 82, 'both: every skill in one dir is a symlink': 64, 'both: .claude/skills -> .agents/skills symlink': 66, 'only .claude/skills': 506, 'only .agents/skills': 316, 'only .agents/skills (symlink)': 3, 'both: both folders link to one third folder': 4, 'both: some skills symlinked': 18, 'both: parent directory symlinked': 8, 'both: .agents/skills -> .claude/skills symlink': 8, 'only .claude/skills (symlink)': 6, 'both: a folder links somewhere else': 1} | aggregates {'only .claude/skills': 506, 'only .agents/skills': 316, 'both: two real directories': 82, 'both: .claude/skills -> .agents/skills symlink': 66, 'both: every skill in one dir is a symlink': 64, 'both: some skills symlinked': 18, 'both: .agents/skills -> .claude/skills symlink': 8, 'both: parent directory symlinked': 8, 'only .claude/skills (symlink)': 6, 'both: both folders link to one third folder': 4, 'only .agents/skills (symlink)': 3, 'both: a folder links somewhere else': 1}
+OK   two real skills folders by names: labels {'same': 45, 'partial': 18, 'disjoint': 19} | aggregates {'same': 45, 'partial': 18, 'disjoint': 19}
+OK   skills among repos with both files: labels {'none': 888, 'claude+agents': 145, 'claude': 178, '+agents': 81} | aggregates {'+agents': 81, 'none': 888, 'claude': 178, 'claude+agents': 145}
+OK   per-skill symlinks into the other folder: labels {'all': 71, 'some': 4, 'none': 7} | aggregates {'all': 71, 'some': 4, 'none': 7}
+OK   two real folders, same names, every folder identical: labels 22 | aggregates 22
+OK   same-named skill folders, identical: labels {'n': 530, 'identical': 297} | aggregates {'n': 530, 'identical': 297}
+
+0 difference(s)

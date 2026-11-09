@@ -1,0 +1,26 @@
+{
+ "run_date": "2026-11-09",
+ "frame_query": "stars:>=10 pushed:>=2026-10-10 archived:false is:public",
+ "push_window": {
+  "from_utc": "2026-10-10T00:00:00Z",
+  "to": "the moment each creation day was listed (see listed_first_utc / listed_last_utc)"
+ },
+ "frame_total_count_at_start": 317587,
+ "frame_total_count_checked_utc": "2026-11-09T06:22:16Z",
+ "seed": 20261103,
+ "days_drawn": 420,
+ "day_range": [
+  "2008-01-01",
+  "2026-11-02"
+ ],
+ "phase1_started_utc": "2026-11-09T06:22:16Z",
+ "phase1_done_utc": "2026-11-09T06:58:26Z",
+ "frame_outside_day_range": {
+  "checked_utc": "2026-11-09T06:58:26Z",
+  "created_after_last_day": 2448,
+  "created_after_last_day_query": "stars:>=10 pushed:>=2026-10-10 archived:false is:public created:>2026-11-02",
+  "created_before_first_day": 0,
+  "created_before_first_day_query": "stars:>=10 pushed:>=2026-10-10 archived:false is:public created:<2008-01-01",
+  "share_of_frame_outside_range_pct": 0.771
+ }
+}

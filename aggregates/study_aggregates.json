@@ -1,0 +1,746 @@
+{
+ "meta": {
+  "frame_query": "stars:>=10 pushed:>=2026-10-10 archived:false is:public",
+  "seed": 20261103,
+  "day_range": [
+   "2008-01-01",
+   "2026-11-02"
+  ],
+  "days_drawn": 420,
+  "days_with_roots": 397,
+  "search_total_count_sum": 19776,
+  "repos_retrieved": 19776,
+  "repos_with_root_listing": 19776,
+  "incomplete_days": 0,
+  "days_listed_short_of_total_count": 0,
+  "max_repos_on_one_day": 888,
+  "days_listed_first_utc": "2026-11-09T06:22:16Z",
+  "days_listed_last_utc": "2026-11-09T06:57:03Z",
+  "run_date": "2026-11-09",
+  "push_window_from": "2026-10-10",
+  "generated_at": "2026-11-09T07:46:01Z",
+  "repos_with_signal_at_root": 4432,
+  "blobs_read": 4432,
+  "history_read": 1293,
+  "trees_fetched": 3107
+ },
+ "frame": {
+  "repos": 19776,
+  "root_CLAUDE.md": {
+   "k": 2223,
+   "n": 19776,
+   "pct": 11.2,
+   "wilson95": [
+    10.8,
+    11.7
+   ]
+  },
+  "root_AGENTS.md": {
+   "k": 3107,
+   "n": 19776,
+   "pct": 15.7,
+   "wilson95": [
+    15.2,
+    16.2
+   ]
+  },
+  "both_root": {
+   "k": 1293,
+   "n": 19776,
+   "pct": 6.5,
+   "wilson95": [
+    6.2,
+    6.9
+   ]
+  },
+  "either_root": {
+   "k": 4037,
+   "n": 19776,
+   "pct": 20.4,
+   "wilson95": [
+    19.9,
+    21.0
+   ]
+  },
+  "both_root_boot95": [
+   5.6,
+   7.4
+  ],
+  "has_.claude_dir": {
+   "k": 1229,
+   "n": 19776,
+   "pct": 6.2,
+   "wilson95": [
+    5.9,
+    6.6
+   ]
+  },
+  "has_.agents_dir": {
+   "k": 702,
+   "n": 19776,
+   "pct": 3.5,
+   "wilson95": [
+    3.3,
+    3.8
+   ]
+  },
+  "has_.codex_dir": {
+   "k": 191,
+   "n": 19776,
+   "pct": 1.0,
+   "wilson95": [
+    0.8,
+    1.1
+   ]
+  },
+  "AGENTS.md_given_CLAUDE.md": {
+   "k": 1293,
+   "n": 2223,
+   "pct": 58.2,
+   "wilson95": [
+    56.1,
+    60.2
+   ]
+  },
+  "CLAUDE.md_given_AGENTS.md": {
+   "k": 1293,
+   "n": 3107,
+   "pct": 41.6,
+   "wilson95": [
+    39.9,
+    43.4
+   ]
+  },
+  "by_created_year": {
+   "2008-2022": {
+    "repos": 8064,
+    "claude": 616,
+    "agents": 872,
+    "both": 342
+   },
+   "2023": {
+    "repos": 1546,
+    "claude": 132,
+    "agents": 183,
+    "both": 68
+   },
+   "2024": {
+    "repos": 1485,
+    "claude": 160,
+    "agents": 221,
+    "both": 97
+   },
+   "2025": {
+    "repos": 2054,
+    "claude": 292,
+    "agents": 384,
+    "both": 162
+   },
+   "2026": {
+    "repos": 6627,
+    "claude": 1023,
+    "agents": 1447,
+    "both": 624
+   }
+  },
+  "by_star_band": {
+   "10-49": {
+    "repos": 10904,
+    "claude": 1223,
+    "agents": 1676,
+    "both": 695
+   },
+   "50-499": {
+    "repos": 6628,
+    "claude": 718,
+    "agents": 982,
+    "both": 410
+   },
+   "500+": {
+    "repos": 2244,
+    "claude": 282,
+    "agents": 449,
+    "both": 188
+   }
+  }
+ },
+ "pairs": {
+  "n": 1292,
+  "missing_text": 1,
+  "kinds": {
+   "import-shim": {
+    "k": 446,
+    "n": 1292,
+    "pct": 34.5,
+    "wilson95": [
+     32.0,
+     37.2
+    ],
+    "boot95": [
+     31.1,
+     38.3
+    ]
+   },
+   "symlink": {
+    "k": 299,
+    "n": 1292,
+    "pct": 23.1,
+    "wilson95": [
+     20.9,
+     25.5
+    ],
+    "boot95": [
+     20.8,
+     25.7
+    ]
+   },
+   "pointer": {
+    "k": 277,
+    "n": 1292,
+    "pct": 21.4,
+    "wilson95": [
+     19.3,
+     23.8
+    ],
+    "boot95": [
+     18.8,
+     23.8
+    ]
+   },
+   "separate": {
+    "k": 121,
+    "n": 1292,
+    "pct": 9.4,
+    "wilson95": [
+     7.9,
+     11.1
+    ],
+    "boot95": [
+     7.2,
+     11.8
+    ]
+   },
+   "near-copy": {
+    "k": 62,
+    "n": 1292,
+    "pct": 4.8,
+    "wilson95": [
+     3.8,
+     6.1
+    ],
+    "boot95": [
+     3.5,
+     6.1
+    ]
+   },
+   "identical": {
+    "k": 47,
+    "n": 1292,
+    "pct": 3.6,
+    "wilson95": [
+     2.7,
+     4.8
+    ],
+    "boot95": [
+     2.5,
+     4.9
+    ]
+   },
+   "import-plus": {
+    "k": 39,
+    "n": 1292,
+    "pct": 3.0,
+    "wilson95": [
+     2.2,
+     4.1
+    ],
+    "boot95": [
+     2.1,
+     3.9
+    ]
+   },
+   "symlink-other": {
+    "k": 1,
+    "n": 1292,
+    "pct": 0.1,
+    "wilson95": [
+     0.0,
+     0.4
+    ],
+    "boot95": [
+     0.0,
+     0.3
+    ]
+   }
+  },
+  "wired": {
+   "k": 784,
+   "n": 1292,
+   "pct": 60.7,
+   "wilson95": [
+    58.0,
+    63.3
+   ],
+   "boot95": [
+    57.4,
+    64.4
+   ]
+  },
+  "not_wired": {
+   "k": 508,
+   "n": 1292,
+   "pct": 39.3,
+   "wilson95": [
+    36.7,
+    42.0
+   ],
+   "boot95": [
+    35.6,
+    42.6
+   ]
+  },
+  "copies": {
+   "k": 109,
+   "n": 1292,
+   "pct": 8.4,
+   "wilson95": [
+    7.0,
+    10.1
+   ],
+   "boot95": [
+    6.8,
+    10.0
+   ]
+  },
+  "symlink_dirs": {
+   "CLAUDE->AGENTS": 233,
+   "AGENTS->CLAUDE": 59,
+   "both->third": 7
+  },
+  "pointer_dirs": {
+   "claude_mentions_agents_only": 136,
+   "agents_mentions_claude_only": 59,
+   "both_mention": 82,
+   "short_claude_pointer_le5_lines": 85
+  },
+  "broken_import_in_code": 0,
+  "near_miss_import": 6,
+  "loose_regex_vs_parser": {
+   "loose_import_parser_not": 4,
+   "parser_import_loose_not": 0,
+   "parser_not_kinds": {
+    "pointer": 4
+   }
+  },
+  "agents_imports_claude": 5,
+  "symlink_checked_in_as_text": 6,
+  "by_star_band": {
+   "10-49": {
+    "n": 695,
+    "not_wired": {
+     "k": 279,
+     "n": 695,
+     "pct": 40.1,
+     "wilson95": [
+      36.6,
+      43.8
+     ]
+    },
+    "kinds": {
+     "import-shim": 251,
+     "separate": 66,
+     "symlink": 145,
+     "pointer": 154,
+     "identical": 22,
+     "near-copy": 36,
+     "import-plus": 20,
+     "symlink-other": 1
+    }
+   },
+   "50-499": {
+    "n": 410,
+    "not_wired": {
+     "k": 169,
+     "n": 410,
+     "pct": 41.2,
+     "wilson95": [
+      36.6,
+      46.0
+     ]
+    },
+    "kinds": {
+     "pointer": 90,
+     "symlink": 98,
+     "import-shim": 128,
+     "separate": 41,
+     "identical": 19,
+     "near-copy": 19,
+     "import-plus": 15
+    }
+   },
+   "500+": {
+    "n": 187,
+    "not_wired": {
+     "k": 60,
+     "n": 187,
+     "pct": 32.1,
+     "wilson95": [
+      25.8,
+      39.1
+     ]
+    },
+    "kinds": {
+     "import-shim": 67,
+     "symlink": 56,
+     "identical": 6,
+     "pointer": 33,
+     "separate": 14,
+     "import-plus": 4,
+     "near-copy": 7
+    }
+   }
+  },
+  "not_wired_10_499_stars": {
+   "k": 448,
+   "n": 1105,
+   "pct": 40.5,
+   "wilson95": [
+    37.7,
+    43.5
+   ]
+  },
+  "dot_claude_CLAUDE.md_with_AGENTS.md_no_root_CLAUDE.md": {
+   "n": 38,
+   "kinds": {
+    "symlink": 4,
+    "import (@../AGENTS.md)": 10,
+    "separate": 3,
+    "pointer": 11,
+    "import (@AGENTS.md, resolves inside .claude/)": 4,
+    "identical": 2,
+    "symlink-other": 3,
+    "near-copy": 1
+   }
+  },
+  "committed_CLAUDE.local.md_any": 1,
+  "committed_CLAUDE.local.md_with_AGENTS.md": 1,
+  "shared_lines_distribution_separate_written": {
+   "n": 460,
+   "median_jaccard": 0.007,
+   "bins": {
+    "0": 190,
+    "0-0.1": 157,
+    "0.1-0.3": 34,
+    "0.3-0.5": 17,
+    "0.5-0.8": 22,
+    "0.8-1": 40
+   }
+  },
+  "claude_md_sizes": {
+   "all_root_regular": {
+    "n": 1976,
+    "median_bytes": 3852.0,
+    "share_under_100_bytes": 0.209
+   },
+   "in_pairs_regular": {
+    "n": 1051,
+    "median_bytes": 350,
+    "share_under_100_bytes": 0.384
+   }
+  },
+  "claude_md_exactly_one_import_line": 324,
+  "most_common_root_claude_md_text": {
+   "regular_root_claude_md_with_text": 1975,
+   "top_is_exactly_@AGENTS.md": true,
+   "top_count": 318,
+   "second_count": 6,
+   "exactly_@AGENTS.md_any_repo": 318
+  },
+  "claude_md_under_100_bytes": {
+   "n": 413,
+   "with_AGENTS.md_import": 367
+  }
+ },
+ "near_copies": {
+  "identical": 47,
+  "near_copy": 62,
+  "of_pairs": 1292,
+  "near_copy_same_apart_from_tool_names": 10,
+  "near_copy_lines_only_in_one_file_median": 8.5,
+  "near_copy_lines_only_in_one_file_range": [
+   0,
+   243
+  ],
+  "last_edit_gap_near_copy": {
+   "n": 62,
+   "same_day": 37,
+   "over_30_days": 15,
+   "median_days": 0.0
+  },
+  "last_edit_gap_identical": {
+   "n": 47,
+   "same_day": 45,
+   "over_30_days": 1,
+   "median_days": 0
+  },
+  "last_edit_gap_separately_written": {
+   "n": 499,
+   "same_day": 150,
+   "over_30_days": 189,
+   "median_days": 12
+  },
+  "near_copy_which_newer": {
+   "claude_newer": 11,
+   "agents_newer": 14,
+   "same_day": 37
+  }
+ },
+ "conflicts": {
+  "pairs_with_separately_written_content": 600,
+  "import_shims_with_own_lines_scanned": 101,
+  "import_shims_import_only": 345,
+  "auto_flags": {
+   "pm": 6,
+   "pypm": 0,
+   "test": 3,
+   "fmt": 0,
+   "style": 0,
+   "ban": 14,
+   "commit": 3
+  },
+  "both_files_state_it": {
+   "pm": 109,
+   "test": 139,
+   "ban_any_side": 94,
+   "commit": 55,
+   "pypm": 36,
+   "fmt": 29,
+   "style": 17
+  },
+  "only_one_file_states_it": {
+   "pm": 135,
+   "test": 210,
+   "commit": 184,
+   "pypm": 61,
+   "fmt": 75,
+   "style": 67
+  },
+  "two_full_files": {
+   "n": 283,
+   "test_both": 128,
+   "test_one": 61,
+   "test_none": 94,
+   "pm_both": 122,
+   "pm_one": 48,
+   "pm_none": 113,
+   "test_only_claude": 33,
+   "test_only_agents": 28
+  },
+  "two_full_files_kinds": {
+   "separate": 85,
+   "near-copy": 59,
+   "pointer": 117,
+   "import-plus": 22
+  },
+  "two_full_files_not_copies_median_shared_lines_jaccard": 0.009956409748365366,
+  "files_naming_js_pm_with_known_repo_pm": 457,
+  "files_whose_dominant_pm_differs_from_repo": 18
+ },
+ "size": {
+  "root_AGENTS.md_known_size": 3084,
+  "root_AGENTS.md_read": 3107,
+  "root_AGENTS.md_size_unknown": {
+   "symlink, not to a regular root CLAUDE.md": 23
+  },
+  "root_AGENTS.md_over_32KiB": {
+   "k": 167,
+   "n": 3084,
+   "pct": 5.4,
+   "wilson95": [
+    4.7,
+    6.3
+   ],
+   "boot95": [
+    4.3,
+    6.5
+   ]
+  },
+  "root_AGENTS.md_over_16KiB": {
+   "k": 491,
+   "n": 3084,
+   "pct": 15.9,
+   "wilson95": [
+    14.7,
+    17.3
+   ]
+  },
+  "root_AGENTS.md_median_bytes": 5588.5,
+  "root_AGENTS.md_p90_bytes": 22957,
+  "root_AGENTS.md_max_bytes": 775204,
+  "root_AGENTS.md_bins": {
+   "up to 1 KiB": 311,
+   "1-4 KiB": 916,
+   "4-8 KiB": 729,
+   "8-16 KiB": 637,
+   "16-32 KiB": 324,
+   "32-64 KiB": 120,
+   "over 64 KiB": 47
+  },
+  "over_32KiB_by_star_band": {
+   "10-49": {
+    "k": 95,
+    "n": 1666,
+    "pct": 5.7,
+    "wilson95": [
+     4.7,
+     6.9
+    ]
+   },
+   "50-499": {
+    "k": 59,
+    "n": 977,
+    "pct": 6.0,
+    "wilson95": [
+     4.7,
+     7.7
+    ]
+   },
+   "500+": {
+    "k": 13,
+    "n": 441,
+    "pct": 2.9,
+    "wilson95": [
+     1.7,
+     5.0
+    ]
+   }
+  },
+  "trees_checked": 3092,
+  "tree_issues": {
+   "tree_truncated": 15
+  },
+  "repos_with_nested_AGENTS.md": {
+   "k": 415,
+   "n": 3092,
+   "pct": 13.4,
+   "wilson95": [
+    12.3,
+    14.7
+   ]
+  },
+  "nested_AGENTS.md_per_repo_max": 1230,
+  "nested_symlinks_ignored": 13,
+  "repos_over_32KiB_root_or_combined": {
+   "k": 224,
+   "n": 3092,
+   "pct": 7.2,
+   "wilson95": [
+    6.4,
+    8.2
+   ]
+  },
+  "repos_over_32KiB_only_when_combined": {
+   "k": 59,
+   "n": 3092,
+   "pct": 1.9,
+   "wilson95": [
+    1.5,
+    2.5
+   ]
+  }
+ },
+ "override": {
+  "root_override_in_frame": {
+   "k": 0,
+   "n": 19776,
+   "pct": 0.0,
+   "wilson95": [
+    -0.0,
+    0.0
+   ]
+  },
+  "root_override_among_root_AGENTS.md": {
+   "k": 0,
+   "n": 3107,
+   "pct": 0.0,
+   "wilson95": [
+    0.0,
+    0.1
+   ]
+  },
+  "any_override_among_tree_checked_AGENTS.md_repos": {
+   "k": 0,
+   "n": 3092,
+   "pct": 0.0,
+   "wilson95": [
+    0.0,
+    0.1
+   ]
+  }
+ },
+ "skills": {
+  "repos_with_any_skills_dir": 1082,
+  "breakdown": {
+   "only .claude/skills": 506,
+   "only .agents/skills": 316,
+   "both: two real directories": 82,
+   "both: .claude/skills -> .agents/skills symlink": 66,
+   "both: every skill in one dir is a symlink": 64,
+   "both: some skills symlinked": 18,
+   "both: .agents/skills -> .claude/skills symlink": 8,
+   "both: parent directory symlinked": 8,
+   "only .claude/skills (symlink)": 6,
+   "both: both folders link to one third folder": 4,
+   "only .agents/skills (symlink)": 3,
+   "both: a folder links somewhere else": 1
+  },
+  "two_real_dirs_same_skill_names": 45,
+  "two_real_dirs_partial_overlap": 18,
+  "two_real_dirs_disjoint": 19,
+  "two_real_dirs_same_names_every_folder_identical": 22,
+  "two_real_dirs_same_names_some_folder_differs": 23,
+  "same_named_skill_folders": {
+   "n": 530,
+   "identical": 297
+  },
+  "symlinked_skills_point_into_other_dir": {
+   "all": 71,
+   "some": 4,
+   "none": 7
+  },
+  "denominator_frame_repos": 19776,
+  "among_both_root_files": {
+   "+agents": 81,
+   "none": 888,
+   "claude": 178,
+   "claude+agents": 145
+  }
+ },
+ "omissions": {
+  "not_connected_no_pointer": {
+   "n": 144,
+   "test_one": 16,
+   "test_both": 73,
+   "pm_one": 18,
+   "pm_both": 65
+  },
+  "pointer": {
+   "n": 117,
+   "test_one": 36,
+   "test_both": 47,
+   "pm_one": 22,
+   "pm_both": 50
+  },
+  "all_unconnected": {
+   "n": 261,
+   "test_one": 52,
+   "test_both": 120,
+   "pm_one": 40,
+   "pm_both": 115
+  },
+  "one_line_imports": {
+   "n": 324,
+   "exactly_@AGENTS.md": 317
+  }
+ }
+}

@@ -1,0 +1,44 @@
+<!doctype html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=block" rel="stylesheet"><style>
+:root { --surface:#1a1a19; --ink:#f0efec; --ink2:#c3c2b7; --muted:#898781; --grid:#2c2c2a; --axis:#383835;
+        --s1:#3987e5; --s2:#d95926; }
+* { box-sizing:border-box; margin:0; padding:0; }
+html, body { background:var(--surface); color:var(--ink); font-family:Inter, system-ui, -apple-system, sans-serif;
+             -webkit-font-smoothing:antialiased; }
+.mono { font-family:"JetBrains Mono", ui-monospace, monospace; }
+
+body { width:1200px; height:675px; padding:52px 64px 0 64px; }
+.kicker { color:var(--muted); font-size:17px; }
+h1 { font-size:36px; font-weight:600; letter-spacing:-0.01em; margin-top:8px; }
+.legend { display:flex; gap:28px; margin:26px 0 20px; font-size:17px; color:var(--ink2); }
+.legend i { width:12px; height:12px; border-radius:3px; display:inline-block; margin-right:9px; vertical-align:-1px; }
+.row { display:grid; grid-template-columns:220px 1fr; align-items:center; height:50px; }
+.lab { font-size:19px; color:var(--ink); }
+.track { position:relative; display:flex; align-items:center; height:24px; border-left:1px solid var(--axis); }
+.bar { height:22px; border-radius:0 4px 4px 0; min-width:3px; }
+.val { margin-left:12px; font-size:18px; color:var(--ink); white-space:nowrap; }
+.val b { font-weight:600; margin-right:8px; }
+.val span { color:var(--muted); font-size:16px; }
+.limit { position:relative; height:30px; margin-left:220px; border-top:1px solid var(--ink2); margin-top:6px; }
+.limit span { position:absolute; top:5px; left:12px; font-size:15px; color:var(--ink2); }
+.foot { position:absolute; left:64px; right:64px; bottom:36px; display:flex; justify-content:space-between; color:var(--muted); font-size:15px; }
+</style></head><body>
+<div class="kicker">3,084 root AGENTS.md files from the same sample of public repos, by size</div>
+<h1>5.4% of root AGENTS.md files are over the default limit</h1>
+<div class="legend"><span><i style="background:var(--s1)"></i>Codex loads the whole file</span><span><i style="background:var(--s2)"></i>Codex cuts it off, with no warning</span></div>
+<div class="row"><div class="lab">Up to 1 KiB</div><div class="track">
+          <div class="bar" style="width:26.48%;background:var(--s1)"></div>
+          <div class="val"><b>10.1%</b><span>311 files</span></div></div></div><div class="row"><div class="lab">1 to 4 KiB</div><div class="track">
+          <div class="bar" style="width:78.00%;background:var(--s1)"></div>
+          <div class="val"><b>29.7%</b><span>916 files</span></div></div></div><div class="row"><div class="lab">4 to 8 KiB</div><div class="track">
+          <div class="bar" style="width:62.08%;background:var(--s1)"></div>
+          <div class="val"><b>23.6%</b><span>729 files</span></div></div></div><div class="row"><div class="lab">8 to 16 KiB</div><div class="track">
+          <div class="bar" style="width:54.24%;background:var(--s1)"></div>
+          <div class="val"><b>20.7%</b><span>637 files</span></div></div></div><div class="row"><div class="lab">16 to 32 KiB</div><div class="track">
+          <div class="bar" style="width:27.59%;background:var(--s1)"></div>
+          <div class="val"><b>10.5%</b><span>324 files</span></div></div></div><div class="limit"><span>Codex's default limit: 32 KiB (32,768 bytes)</span></div><div class="row"><div class="lab">32 to 64 KiB</div><div class="track">
+          <div class="bar" style="width:10.22%;background:var(--s2)"></div>
+          <div class="val"><b>3.9%</b><span>120 files</span></div></div></div><div class="row"><div class="lab">Over 64 KiB</div><div class="track">
+          <div class="bar" style="width:4.00%;background:var(--s2)"></div>
+          <div class="val"><b>1.5%</b><span>47 files</span></div></div></div>
+<div class="foot"><span>Another 59 repos (1.9%) go over only once nested AGENTS.md files on the same path are added</span><span>pulore.com</span></div>
+</body></html>

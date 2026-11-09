@@ -1,0 +1,75 @@
+{
+ "near_copies": {
+  "n": 62,
+  "labelled": 62,
+  "unlabelled": 0,
+  "labels": {
+   "content": 25,
+   "cosmetic": 23,
+   "contradiction": 14
+  },
+  "last_edit_gap_days_by_label": {
+   "content": {
+    "n": 25,
+    "median": 3,
+    "different_day": 13
+   },
+   "cosmetic": {
+    "n": 23,
+    "median": 0,
+    "different_day": 3
+   },
+   "contradiction": {
+    "n": 14,
+    "median": 17.0,
+    "different_day": 9
+   }
+  }
+ },
+ "conflict_flags": {
+  "pm": {
+   "false-positive": 6
+  },
+  "pypm": {},
+  "test": {
+   "false-positive": 3
+  },
+  "fmt": {},
+  "style": {},
+  "ban": {
+   "false-positive": 13,
+   "confirmed": 1
+  },
+  "commit": {
+   "false-positive": 2,
+   "confirmed": 1
+  },
+  "file_vs_lockfile": {
+   "unreviewed": 18
+  }
+ },
+ "notes": {
+  "near_copy_contradictions": [
+   "CLAUDE.md allows two generated data files to be committed; AGENTS.md says only one file is exempt from the never-commit rule (AGENTS.md looks older)",
+   "AGENTS.md describes saving code through the tool bridge, which CLAUDE.md says was removed, and asks for two copies of the authoring guide to be kept in sync where CLAUDE.md says only one exists (AGENTS.md looks older)",
+   "AGENTS.md says a runtime doc referenced from a shared agent gets bundled and that the tests run against remote repositories; CLAUDE.md says agent-only docs are not bundled and the automated tests need no repository (same last-commit date)",
+   "the two files name different CI services, and CLAUDE.md has releases going to two browser stores where AGENTS.md says one (same last-commit date)",
+   "CLAUDE.md says the merged-worktree cleanup deletes branches; AGENTS.md says it keeps local branches even when forced, and the two describe different target-lookup rules (CLAUDE.md looks older)",
+   "CLAUDE.md says the deploy workflow runs only when called from the data job, not on push; AGENTS.md says a direct push to main also deploys (same last-commit date)",
+   "AGENTS.md updates the shared package list with a forced dump and deploys links without the no-folding flag; CLAUDE.md forbids the forced dump, makes the flag mandatory and names a different shell setup (AGENTS.md looks older)",
+   "CLAUDE.md names each pack's constraints file as its canonical rule layer; AGENTS.md says newer packs keep it in a knowledge file and treats the constraints file as a legacy input (CLAUDE.md looks older)",
+   "AGENTS.md uses module paths from an older flat layout and gives a different default model, release version and test layout; it also says an environment variable sets the trust level, which CLAUDE.md says no variable can change (AGENTS.md looks older)",
+   "the two files link different feature plans at the same spot, apparently the current-plan pointer; AGENTS.md links an earlier plan (same last-commit date)",
+   "CLAUDE.md says the serving engine cannot steer at inference time; AGENTS.md says newer branches can and tells the agent to stop applying that blanket claim (CLAUDE.md looks older)",
+   "CLAUDE.md says never to hard-code the front-end dev port because each subproject uses its own; AGENTS.md hard-codes that port for the dev server and browser tooling (AGENTS.md looks a day older)",
+   "AGENTS.md says to build only first-version items and leave TODO markers for the rest; CLAUDE.md calls those markers historical and forbids both, and rules out a uniqueness claim AGENTS.md still makes (AGENTS.md looks older)",
+   "AGENTS.md has the agent write the risk level in its overview step; CLAUDE.md says the orchestrator sets the risk tier and the agent must not (same last-commit date)"
+  ],
+  "confirmed_ban": [
+   "CLAUDE.md forbids regenerating the shared package list with a forced dump because it wipes other machines' entries; AGENTS.md gives that forced dump as the way to update it (AGENTS.md looks older)"
+  ],
+  "confirmed_commit": [
+   "CLAUDE.md tells the agent to commit, push and open a PR on its own; AGENTS.md says to leave pushing and PR creation to an explicit request"
+  ]
+ }
+}

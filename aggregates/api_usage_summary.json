@@ -1,0 +1,121 @@
+{
+ "note": "Requests this pipeline sent, counted in code (retries included). GraphQL cost is the rateLimit.cost GitHub reported per query. Limits for one token: search 30/min, code search 10/min, REST 5,000/h, GraphQL 5,000 points/h.",
+ "by_script": {
+  "codesearch_counts": {
+   "search_repositories_requests": 0,
+   "search_code_requests": 16,
+   "rest_core_requests": 24,
+   "graphql_requests": 0,
+   "graphql_cost_points": 0,
+   "rate_limit_sleeps": 0,
+   "failed_requests": 0,
+   "runs": 1,
+   "first_start_utc": "2026-11-09T06:22:13Z",
+   "last_end_utc": "2026-11-09T06:24:47Z",
+   "busy_seconds": 154
+  },
+  "frame_coverage": {
+   "search_repositories_requests": 2,
+   "search_code_requests": 0,
+   "rest_core_requests": 0,
+   "graphql_requests": 0,
+   "graphql_cost_points": 0,
+   "rate_limit_sleeps": 0,
+   "failed_requests": 0,
+   "runs": 1,
+   "first_start_utc": "2026-11-09T06:58:26Z",
+   "last_end_utc": "2026-11-09T06:58:32Z",
+   "busy_seconds": 6
+  },
+  "oversize_config": {
+   "search_repositories_requests": 0,
+   "search_code_requests": 0,
+   "rest_core_requests": 0,
+   "graphql_requests": 9,
+   "graphql_cost_points": 9,
+   "rate_limit_sleeps": 0,
+   "failed_requests": 0,
+   "runs": 1,
+   "first_start_utc": "2026-11-09T07:39:16Z",
+   "last_end_utc": "2026-11-09T07:39:50Z",
+   "busy_seconds": 34
+  },
+  "phase1_frame": {
+   "search_repositories_requests": 489,
+   "search_code_requests": 0,
+   "rest_core_requests": 0,
+   "graphql_requests": 647,
+   "graphql_cost_points": 647,
+   "rate_limit_sleeps": 0,
+   "failed_requests": 0,
+   "runs": 1,
+   "first_start_utc": "2026-11-09T06:22:13Z",
+   "last_end_utc": "2026-11-09T06:58:26Z",
+   "busy_seconds": 2173
+  },
+  "phase2_fetch-blobs": {
+   "search_repositories_requests": 0,
+   "search_code_requests": 0,
+   "rest_core_requests": 0,
+   "graphql_requests": 566,
+   "graphql_cost_points": 561,
+   "rate_limit_sleeps": 0,
+   "failed_requests": 1,
+   "runs": 1,
+   "first_start_utc": "2026-11-09T06:58:33Z",
+   "last_end_utc": "2026-11-09T07:13:47Z",
+   "busy_seconds": 914
+  },
+  "phase2_fetch-history": {
+   "search_repositories_requests": 0,
+   "search_code_requests": 0,
+   "rest_core_requests": 0,
+   "graphql_requests": 65,
+   "graphql_cost_points": 65,
+   "rate_limit_sleeps": 0,
+   "failed_requests": 0,
+   "runs": 1,
+   "first_start_utc": "2026-11-09T07:13:48Z",
+   "last_end_utc": "2026-11-09T07:15:24Z",
+   "busy_seconds": 96
+  },
+  "phase2_fetch-trees": {
+   "search_repositories_requests": 0,
+   "search_code_requests": 0,
+   "rest_core_requests": 3109,
+   "graphql_requests": 0,
+   "graphql_cost_points": 0,
+   "rate_limit_sleeps": 0,
+   "failed_requests": 0,
+   "runs": 1,
+   "first_start_utc": "2026-11-09T06:58:33Z",
+   "last_end_utc": "2026-11-09T07:21:10Z",
+   "busy_seconds": 1357
+  },
+  "ranking_check": {
+   "search_repositories_requests": 0,
+   "search_code_requests": 2,
+   "rest_core_requests": 0,
+   "graphql_requests": 10,
+   "graphql_cost_points": 10,
+   "rate_limit_sleeps": 0,
+   "failed_requests": 0,
+   "runs": 1,
+   "first_start_utc": "2026-11-09T06:24:48Z",
+   "last_end_utc": "2026-11-09T06:25:25Z",
+   "busy_seconds": 37
+  }
+ },
+ "total": {
+  "search_repositories_requests": 491,
+  "search_code_requests": 18,
+  "rest_core_requests": 3133,
+  "graphql_requests": 1297,
+  "graphql_cost_points": 1292,
+  "rate_limit_sleeps": 0,
+  "failed_requests": 1,
+  "first_start_utc": "2026-11-09T06:22:13Z",
+  "last_end_utc": "2026-11-09T07:39:50Z",
+  "script_busy_seconds_summed": 4771
+ }
+}

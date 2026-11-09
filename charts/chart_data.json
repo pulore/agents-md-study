@@ -1,0 +1,92 @@
+{
+ "push_window_label": "10 Oct to 9 Nov 2026",
+ "relationship": {
+  "repos_with_both_files": 1292,
+  "connected_pct": 60.7,
+  "not_connected_pct": 39.3,
+  "other_symlink_setups_not_shown": 1,
+  "connected": [
+   {
+    "label": "CLAUDE.md imports @AGENTS.md",
+    "repos": 485,
+    "pct": 37.5
+   },
+   {
+    "label": "One file is a symlink to the other",
+    "repos": 299,
+    "pct": 23.1
+   }
+  ],
+  "not_connected": [
+   {
+    "label": "A sentence points to the other file",
+    "repos": 277,
+    "pct": 21.4
+   },
+   {
+    "label": "Two separate files",
+    "repos": 121,
+    "pct": 9.4
+   },
+   {
+    "label": "Copies: identical or near-copies",
+    "repos": 109,
+    "pct": 8.4
+   }
+  ]
+ },
+ "size": {
+  "root_AGENTS.md_files_with_known_size": 3084,
+  "over_32KiB_pct": 5.4,
+  "over_32KiB": 167,
+  "over_only_when_nested_files_added": {
+   "repos": 59,
+   "pct": 1.9,
+   "of_trees_checked": 3092
+  },
+  "bins": [
+   {
+    "label": "Up to 1 KiB",
+    "files": 311,
+    "pct": 10.1,
+    "over_limit": false
+   },
+   {
+    "label": "1 to 4 KiB",
+    "files": 916,
+    "pct": 29.7,
+    "over_limit": false
+   },
+   {
+    "label": "4 to 8 KiB",
+    "files": 729,
+    "pct": 23.6,
+    "over_limit": false
+   },
+   {
+    "label": "8 to 16 KiB",
+    "files": 637,
+    "pct": 20.7,
+    "over_limit": false
+   },
+   {
+    "label": "16 to 32 KiB",
+    "files": 324,
+    "pct": 10.5,
+    "over_limit": false
+   },
+   {
+    "label": "32 to 64 KiB",
+    "files": 120,
+    "pct": 3.9,
+    "over_limit": true
+   },
+   {
+    "label": "Over 64 KiB",
+    "files": 47,
+    "pct": 1.5,
+    "over_limit": true
+   }
+  ]
+ }
+}

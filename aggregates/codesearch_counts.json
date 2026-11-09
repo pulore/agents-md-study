@@ -1,0 +1,195 @@
+{
+ "agents_all": {
+  "query": "filename:AGENTS.md",
+  "total_count": 1204224,
+  "incomplete_results": false,
+  "checked_at": "2026-11-09T06:22:15Z",
+  "first_page_items": 100,
+  "first_page_at_repo_root": 100,
+  "first_page_exact_name": 100,
+  "first_page_path_match": null
+ },
+ "claude_all": {
+  "query": "filename:CLAUDE.md",
+  "total_count": 997376,
+  "incomplete_results": false,
+  "checked_at": "2026-11-09T06:22:24Z",
+  "first_page_items": 100,
+  "first_page_at_repo_root": 100,
+  "first_page_exact_name": 99,
+  "first_page_path_match": null
+ },
+ "agents_root": {
+  "query": "filename:AGENTS.md path:/",
+  "total_count": 626688,
+  "incomplete_results": false,
+  "checked_at": "2026-11-09T06:22:32Z",
+  "first_page_items": 100,
+  "first_page_at_repo_root": 100,
+  "first_page_exact_name": 100,
+  "first_page_path_match": null
+ },
+ "claude_root": {
+  "query": "filename:CLAUDE.md path:/",
+  "total_count": 718848,
+  "incomplete_results": false,
+  "checked_at": "2026-11-09T06:22:41Z",
+  "first_page_items": 100,
+  "first_page_at_repo_root": 100,
+  "first_page_exact_name": 99,
+  "first_page_path_match": null
+ },
+ "agents_gt32k": {
+  "query": "filename:AGENTS.md size:>32768",
+  "total_count": 38080,
+  "incomplete_results": false,
+  "checked_at": "2026-11-09T06:22:50Z",
+  "first_page_items": 100,
+  "first_page_at_repo_root": 100,
+  "first_page_exact_name": 98,
+  "first_page_path_match": null,
+  "first8_blob_sizes": [
+   42661,
+   34252,
+   34839,
+   33785,
+   41991,
+   61195,
+   49456,
+   56903
+  ],
+  "first8_over_limit": 8
+ },
+ "agents_root_gt32k": {
+  "query": "filename:AGENTS.md path:/ size:>32768",
+  "total_count": 18304,
+  "incomplete_results": false,
+  "checked_at": "2026-11-09T06:23:04Z",
+  "first_page_items": 100,
+  "first_page_at_repo_root": 100,
+  "first_page_exact_name": 98,
+  "first_page_path_match": null,
+  "first8_blob_sizes": [
+   42661,
+   34252,
+   34839,
+   33785,
+   41991,
+   61195,
+   49456,
+   56903
+  ],
+  "first8_over_limit": 8
+ },
+ "agents_gt16k": {
+  "query": "filename:AGENTS.md size:>16384",
+  "total_count": 110592,
+  "incomplete_results": false,
+  "checked_at": "2026-11-09T06:23:19Z",
+  "first_page_items": 100,
+  "first_page_at_repo_root": 100,
+  "first_page_exact_name": 98,
+  "first_page_path_match": null,
+  "first8_blob_sizes": [
+   16626,
+   17998,
+   18514,
+   17212,
+   18562,
+   16640,
+   34252,
+   26453
+  ],
+  "first8_over_limit": 8
+ },
+ "override_all": {
+  "query": "filename:AGENTS.override.md",
+  "total_count": 816,
+  "incomplete_results": false,
+  "checked_at": "2026-11-09T06:23:32Z",
+  "first_page_items": 100,
+  "first_page_at_repo_root": 48,
+  "first_page_exact_name": 99,
+  "first_page_path_match": null
+ },
+ "claude_imports_agents": {
+  "query": "filename:CLAUDE.md \"@AGENTS.md\"",
+  "total_count": 66944,
+  "incomplete_results": false,
+  "checked_at": "2026-11-09T06:23:40Z",
+  "first_page_items": 100,
+  "first_page_at_repo_root": 100,
+  "first_page_exact_name": 100,
+  "first_page_path_match": null
+ },
+ "claude_mentions_agents": {
+  "query": "filename:CLAUDE.md AGENTS.md",
+  "total_count": 159744,
+  "incomplete_results": false,
+  "checked_at": "2026-11-09T06:23:49Z",
+  "first_page_items": 100,
+  "first_page_at_repo_root": 100,
+  "first_page_exact_name": 99,
+  "first_page_path_match": null
+ },
+ "agents_mentions_claude": {
+  "query": "filename:AGENTS.md CLAUDE.md",
+  "total_count": 88320,
+  "incomplete_results": false,
+  "checked_at": "2026-11-09T06:23:58Z",
+  "first_page_items": 100,
+  "first_page_at_repo_root": 100,
+  "first_page_exact_name": 99,
+  "first_page_path_match": null
+ },
+ "skill_claude": {
+  "query": "filename:SKILL.md path:.claude/skills",
+  "total_count": 516096,
+  "incomplete_results": false,
+  "checked_at": "2026-11-09T06:24:06Z",
+  "first_page_items": 100,
+  "first_page_at_repo_root": 0,
+  "first_page_exact_name": 96,
+  "first_page_path_match": 100
+ },
+ "skill_agents": {
+  "query": "filename:SKILL.md path:.agents/skills",
+  "total_count": 494592,
+  "incomplete_results": false,
+  "checked_at": "2026-11-09T06:24:15Z",
+  "first_page_items": 100,
+  "first_page_at_repo_root": 0,
+  "first_page_exact_name": 99,
+  "first_page_path_match": 100
+ },
+ "agents_imports_claude": {
+  "query": "filename:AGENTS.md \"@CLAUDE.md\"",
+  "total_count": 476,
+  "incomplete_results": false,
+  "checked_at": "2026-11-09T06:24:24Z",
+  "first_page_items": 100,
+  "first_page_at_repo_root": 58,
+  "first_page_exact_name": 97,
+  "first_page_path_match": null
+ },
+ "override_root": {
+  "query": "filename:AGENTS.override.md path:/",
+  "total_count": 165,
+  "incomplete_results": false,
+  "checked_at": "2026-11-09T06:24:32Z",
+  "first_page_items": 100,
+  "first_page_at_repo_root": 100,
+  "first_page_exact_name": 99,
+  "first_page_path_match": null
+ },
+ "claude_root_imports_agents": {
+  "query": "filename:CLAUDE.md path:/ \"@AGENTS.md\"",
+  "total_count": 27136,
+  "incomplete_results": false,
+  "checked_at": "2026-11-09T06:24:40Z",
+  "first_page_items": 100,
+  "first_page_at_repo_root": 100,
+  "first_page_exact_name": 100,
+  "first_page_path_match": null
+ }
+}
